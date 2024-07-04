@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --color-background: coral;
+@layer base {
+  :host {
+    --color-background: coral;
+    --color-background-2: var(--color-background);
+  }
 }

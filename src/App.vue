@@ -5,7 +5,7 @@ const showModal = ref(false);
 
 <template>
   <div class="bg-primary">
-    <p class="underline">Hello, Friend.</p>
+    <p class="underline text-foo2">Hello, Friend.</p>
 
     <button @click="showModal = true">Show Modal</button>
 
